@@ -1,19 +1,22 @@
+# Changes of this fork
+I changed the behavior of `refreshingOutputModel`. It was always assigned to a new array, so the reference was lost. I did remove all items from the array and so you can always access the array you pass to `outputModel` and find there all selected items.
+
 # AngularJS MultiSelect
-Pure AngularJS directive which creates a dropdown button with multiple or single selections. 
-Doesn't require jQuery and works well with other Javascript libraries. 
+Pure AngularJS directive which creates a dropdown button with multiple or single selections.
+Doesn't require jQuery and works well with other Javascript libraries.
 
 ![Screenshot](https://raw.githubusercontent.com/isteven/angular-multi-select/master/screenshot.png)
 
-### Demo & How To 
+### Demo & How To
 Go to http://isteven.github.io/angular-multi-select
 
 ### Current Version
-4.0.0
+4.1.0
 
 ### Change Log
-See <a href="https://github.com/isteven/angular-multi-select/blob/master/CHANGELOG.md">CHANGELOG.md</a>. 
+See <a href="https://github.com/isteven/angular-multi-select/blob/master/CHANGELOG.md">CHANGELOG.md</a>.
 For those who's upgrading from version 2.x.x, do note that this version is not backward-compatible. Please read the manual
-thoroughly and update your code accordingly. 
+thoroughly and update your code accordingly.
 
 ### Bug Reporting
 Please follow these steps:
